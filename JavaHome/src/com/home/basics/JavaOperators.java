@@ -41,6 +41,23 @@ public class JavaOperators {
 		//example of precedence and associativity
 		System.out.println("Value = "+(a * b / 2 % 2 + b - a));
 		System.out.println("Value = "+(10 - 5 + 2 + 10 * 5 / 2 + 5));
+/*
+Operators	             Associativity	           Type
+++ --	                 Right to left	           Unary postfix
+++ -- + - ~ ! (type)	 Right to left	           Unary prefix
+* / %	                 Left to right             Multiplicative
++ -	                     Left to right	           Additive
+<< >> >>>	             Left to right	           Shift
+< <= > >=	             Left to right	           Relational
+== !==	                 Left to right	           Equality
+&	                     Left to right	           Boolean Logical AND
+^	                     Left to right	           Boolean Logical Exclusive OR
+|	                     Left to right	           Boolean Logical Inclusive OR
+&&	                     Left to right	           Conditional AND
+||	                     Left to right	           Conditional OR
+?:	                     Right to left	           Conditional
+= += -= *= /= %=	     Right to left	           Assignment
+*/
 	}
 	
 	static void unaryOperators(){
